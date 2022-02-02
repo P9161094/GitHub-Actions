@@ -1,0 +1,21 @@
+name: GitHub Demo
+
+on:
+
+  pull_request:
+    branches: [ main ]
+    
+jobs:
+
+  Demo:
+    runs-on: ubuntu-latest
+    
+    steps:
+        
+      - name: Run a one-line script
+        run: echo "Hello Everyone !!!"
+        
+      - name: Run a multi-line script
+        run: |
+                echo "This is my first GitHub Demo"
+                echo "Thank you"

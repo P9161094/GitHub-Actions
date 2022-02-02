@@ -18,4 +18,4 @@ jobs:
       - name: Run a multi-line script
         run: |
                 echo "This is my first GitHub Demo"
-                echo "Thank you"
+                echo "Thank you All!!!"
